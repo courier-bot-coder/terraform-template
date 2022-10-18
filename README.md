@@ -37,6 +37,8 @@ now we can initiate the terraform workplace with this command: terraform init
 
 Once that is done we can run this command: terraform apply
 
+it will ask for verification and you will need to type out "yes"
+
 This will apply the files and create a kubernetes cluster on azure.
 
 From here we can access your azure portal and go to the kubernetes service tab and see our new cluster. We can now connect to that using the portal commands and deploy things from the command line.
