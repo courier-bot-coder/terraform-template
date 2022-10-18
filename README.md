@@ -5,4 +5,6 @@ Make sure you have the azure cli installed, you can install it on windows by usi
 
 Once it is installed login onto your azure account using this command: az login
 
+now you can clone this repo by using the git clone command: git clone https://github.com/courier-bot-coder/terraform-template.git
+
 
