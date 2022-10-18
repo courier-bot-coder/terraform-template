@@ -14,17 +14,24 @@ You should get an output like this :
 
 {
   "appId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+  
   "displayName": "azure-cli-2019-04-11-00-46-05",
+  
   "name": "http://azure-cli-2019-04-11-00-46-05",
+  
   "password": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+  
   "tenant": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
 }
 
 From here you will want to update the terraform.tfvars file and put the appId output and the password output in between the quotes
 
 > terraform.tfvars
+> 
 appId    = "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
+
 password = "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
+
 
 now we can initiate the terraform workplace with this command: terraform init
 
