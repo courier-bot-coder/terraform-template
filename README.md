@@ -22,7 +22,7 @@ You should get an output like this :
 
 From here you will want to update the terraform.tfvars file and put the appId output and the password output in between the quotes
 
-# terraform.tfvars
+> terraform.tfvars
 appId    = "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
 password = "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
 
